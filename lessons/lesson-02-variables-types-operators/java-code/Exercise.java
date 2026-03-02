@@ -11,16 +11,16 @@ public class Exercise {
 
         // TODO: Read two integers from the user
         System.out.print("Enter first number: ");
-        // int num1 = ???
+        int numl =sc.nextInt();
         System.out.print("Enter second number: ");
-        // int num2 = ???
+        int num2 =sc.nextInt();
 
         // TODO: Print the results
-        // System.out.println("Sum: " + ???);
-        // System.out.println("Difference: " + ???);
-        // System.out.println("Product: " + ???);
-        // System.out.println("Quotient: " + ???);
-        // System.out.println("Remainder: " + ???);
+         System.out.println("Sum: " + (numl + num2));
+         System.out.println("Difference: " + (numl - num2));
+         System.out.println("Product: " + (numl * num2));
+         System.out.println("Quotient: " + (num2 / numl));
+         System.out.println("Remainder: " + (num2 % numl));
 
         // BONUS: What happens if num2 is 0?
         // BONUS: Use printf to format the output nicely
