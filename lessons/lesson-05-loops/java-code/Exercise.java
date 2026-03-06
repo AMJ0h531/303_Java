@@ -7,15 +7,15 @@
 public class Exercise {
     public static void main(String[] args) {
 
-        int num = 12345;
-        int reversed = 0;
+        int num = 54321;
+        int sum = 0;
 
-        // TODO: While num > 0:
-        //   1. Extract last digit with % 10
-        //   2. Build reversed number: reversed = reversed * 10 + digit
-        //   3. Remove last digit with /= 10
-
-
-        System.out.println("Reversed: " + reversed); // Should print 54321
+        while (num > 0) {
+            int digit = num % 10;
+            sum += digit;
+            System.out.println("digit:" + num + " running sum: " + sum);
+            num /= 10;
+            System.out.println("Sum of digits: " + sum);
+        }
     }
 }
